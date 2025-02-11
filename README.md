@@ -33,6 +33,7 @@ Validate Sentence
 dev dataset : recall:0.8908 precision:0.7108 f1-score:0.7906 accuracy:0.7641
 Annotation
 annotation dataset : recall:0.8939 precision:0.9961 f1-score:0.9422 accuracy:0.8940
+
 The annotation performance: sparsity: 19.1542, precision: 69.3768, recall: 85.2943, f1: 76.5165
 Episode: 79, loss: 514.6271, cls loss: 309.7217, spa loss: 47.9385, con loss: 166.8680, rl loss: -9.9016, avg_reward: -0.0002
 
