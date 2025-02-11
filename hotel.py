@@ -343,21 +343,6 @@ def split_dataset(all_data):
             train_set.append(item)
     return train_set,dev_set,test_set
 
-# from embedding import get_glove_embedding
-# if __name__=="__main__":
-#     embedding_dir,embedding_name = './data/hotel/embeddings','glove.6B.100d.txt'
-#     pretrained_embedding, word2idx = get_glove_embedding(os.path.join(embedding_dir, embedding_name))
-#     annotation_path = './data/hotel/annotations'
-#     aspect = 0
-
-#     all_data = ToyHotelData(annotation_path, aspect, word2idx)
-#     # input_ids, masks, labels, rationales
-
-#     train_set,dev_set,test_set = split_dataset(all_data)
-#     print(len(train_set),len(dev_set),len(test_set))
-
-
-
 from embedding import get_glove_embedding
 if __name__=="__main__":
     embedding_dir,embedding_name = './data/hotel/embeddings','glove.6B.100d.txt'
@@ -366,10 +351,3 @@ if __name__=="__main__":
     annotation_path = './data/hotel/annotations'
     all_data = HotelAnnotation(annotation_path, aspect, word2idx)
     # input_ids, masks, labels, rationales
-
-
-'''
-HotelData as0: The sparsity is 0.08483771979808807
-HotelData as1: The sparsity is 0.11460386216640472
-HotelData as2: The sparsity is 0.11460386216640472
-'''
