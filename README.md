@@ -13,6 +13,11 @@ Then activate the environment with: conda activate PORAT
 Install packages: pip install -r requirements.txt
 
 
+## Datasets
+Following previous research, we obtain BeerAdvocate, BeerAdvocate* and HotelReview datasets.
+- BeerAdvocate. 
+- BeerAdvocate*. 
+- HotelReview. 
 
 ## Running example
 ### Beer-Aroma
