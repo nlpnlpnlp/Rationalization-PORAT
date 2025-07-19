@@ -1,6 +1,6 @@
 # PORAT
 
-This repository contains code for the paper "PORAT: Learnable Game-Theoretic Policy Optimization for Self-Explanation Rationalization". 
+This repository contains code for the paper "PORAT: Learnable Game-Theoretic Policy Optimization for Data-centric Self-Explanation Rationalization". 
 We release some key code in experiments. We will release all the code used in experiments upon acceptance.
 
 ## Environments
